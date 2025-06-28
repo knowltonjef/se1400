@@ -25,7 +25,7 @@ h2 {
     font-family: 'Times New Roman';
 }
 
-dt{
+dt {
     color: #003058;
     font-weight: bold;
 }
@@ -40,6 +40,7 @@ footer {
     font-style: italic;
     text-align: center;
 }
+
 #wrapper {
     width: 80%;
     margin-left: auto;
