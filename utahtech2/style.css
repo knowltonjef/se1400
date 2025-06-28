@@ -1,13 +1,13 @@
 body {
-    background-color: #FFFFFF; /* White background */
-    color: #666666;            /* Medium gray text */
-    font-family: Verdana, Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: 'verdana';
 }
 
 header {
-    background-color: #003058; /* Deep navy background */
-    color: #FFFFFF;            /* White text */
-    font-family: Georgia, serif;
+    background-color: #003058;
+    color: #FFFFFF;
+    font-family: 'Times New Roman';
 }
 
 header h1 {
@@ -22,11 +22,16 @@ nav {
 
 h2 {
     color: #424242;
-    font-family: Georgia, serif;
+    font-family: 'Times New Roman';
 }
 
 dt{
     color: #003058;
+    font-weight: bold;
+}
+
+.ut {
+    color: #BA1C21;
     font-weight: bold;
 }
 
