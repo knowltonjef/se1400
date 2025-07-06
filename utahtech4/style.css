@@ -40,10 +40,35 @@ header h1 {
 
 nav {
     font-weight: bold;
-    background-color: #F3F3F3;
-    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    background-color: #424242;
     grid-row: 2 / 3;
     grid-column: 2 / -2;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ba1c21;
 }
 
 h2 {
@@ -110,10 +135,6 @@ footer {
     background-position: center;
     grid-row: 3 / 4;
     grid-column: 2 / -2;
-}
-
-nav a {
-    text-decoration: none;
 }
 
 main img {
