@@ -34,6 +34,9 @@ header h1 {
     background-origin: content-box;
     padding-left: 1em;
     margin: 0;
+}
+
+header a {
     text-decoration: none;
     color: #ffffff;
 }
