@@ -6,28 +6,28 @@
 .main-image {
     grid-column: 1 / -1;
     height: 598px;
-    background-color: rgba(0, 200, 250, 0.3);
+    background-color: rgba(250, 0, 0, 0.3);
     z-index: 1;
     margin-bottom: 93px;
 }
 
 .header {
-    grid-column: 2 / 3;
+    grid-column: 2 / 5;
     height: 193px;
     background-color: rgb(250, 221, 0, 0.3);
-    padding: 1rem;
     z-index: 2;
     position: relative;
-    margin-bottom: 84px;
+    margin-top: -691px;
 }
 
 .nav {
-    grid-column: 2 / 3;
+    grid-column: 2 / 5;
     height: 64px;
     background-color: rgb(0, 111, 255, 0.3);
-    padding: 1rem;
     z-index: 2;
     position: relative;
+    margin-top: -450px;
+
 }
 
 .main-bg {
@@ -43,6 +43,7 @@
     background-color: rgb(255, 255, 0, 0.3);
     z-index: 2;
     position: relative;
+    margin-top: -640px;
 }
 
 .footer {
