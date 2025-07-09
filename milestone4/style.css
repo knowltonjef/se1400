@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+.main-image {
+    grid-column: 1 / -1;
+    height: 598px;
+    background-color: rgba(250, 0, 0, 0.3);
+    z-index: 1;
+    margin-bottom: 93px;
+}
+
+.header {
+    grid-column: 2 / 5;
+    height: 193px;
+    background-color: rgb(250, 221, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    margin-top: -691px;
+}
+
+.nav {
+    grid-column: 2 / 5;
+    height: 64px;
+    background-color: rgb(0, 111, 255, 0.3);
+    z-index: 2;
+    position: relative;
+    margin-top: -450px;
+
+}
+
+.main-bg {
+    grid-column: 1 / -1;
+    height: 640px;
+    background-color: rgb(0, 178, 255, 0.3);
+    z-index: 1;
+}
+
+.main {
+    grid-column: 2 / -2;
+    height: 640px;
+    background-color: rgb(255, 255, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    margin-top: -640px;
+}
+
+.footer {
+    grid-column: 2 / -2;
+    height: 270px;
+    background-color: rgb(136, 0, 255, 0.3);
+}
