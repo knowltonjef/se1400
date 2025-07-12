@@ -23,21 +23,24 @@
 
 .danfo-header {
     font-family: "Danfo", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     color: black;
-    font-size: xx-large;
+    font-size: 87px;
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .fjalla-one-regular {
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: medium;
+    font-size: 28px;
     display: flex;
     justify-content: center;
+    margin-top: -5px;
 }
 
 .nav {
@@ -46,9 +49,10 @@
     z-index: 2;
     position: relative;
     margin-top: -450px;
-    font-size: medium;
+    font-size: 28px;
     display: flex;
     justify-content: center;
+    gap: 90px;
 }
 
 .main-bg {
@@ -66,15 +70,16 @@
     margin-top: -640px;
     text-align: left;
     padding-top: 20px;
+    font-size: 28px;
 }
 
 .image-row {
     display: flex;
-    gap: 50px;
-    height: 500px;
+    gap: 60px;
+    height: 410px;
     width: 324px;
     place-items: center, center;
-    padding: 100px 0px 0px 115px;
+    padding: 150px 0px 0px 150px;
 }
 
 .image-row img:nth-child(2) {
@@ -85,8 +90,9 @@
     grid-column: 2 / -2;
     height: 270px;
     display: grid;
-    place-items: center, top;
+    place-items: center;
     text-align: center;
+    margin-top: -60px;
 }
 
 .nav a {
@@ -95,11 +101,11 @@
 }
 
 .call {
-    font-size: medium;
+    font-size: 28px;
     color: black;
 }
 
 .contact {
-    font-size: small;
+    font-size: 24px;
     color: black;
 }
