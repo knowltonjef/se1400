@@ -40,7 +40,6 @@
     z-index: 2;
     position: relative;
     margin-top: -450px;
-
 }
 
 .main-bg {
@@ -72,4 +71,9 @@
     display: grid;
     place-items: center;
     text-align: center;
+}
+
+.nav a {
+    text-decoration-line: none;
+    color: black;
 }
