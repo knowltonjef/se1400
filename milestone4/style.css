@@ -6,8 +6,9 @@
 .main-image {
     grid-column: 1 / -1;
     height: 598px;
-   background-image: url(main\ image.jpg);
-   background-size: cover;
+    background-image: url(main\ image.jpg);
+    background-size: cover;
+    background-position: center;
     z-index: 1;
     margin-bottom: 93px;
 }
@@ -18,6 +19,19 @@
     z-index: 2;
     position: relative;
     margin-top: -691px;
+}
+
+.danfo-header {
+    font-family: "Danfo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav {
@@ -44,7 +58,18 @@
     margin-top: -640px;
 }
 
+.image-row {
+    display: flex;
+    gap: 20px;
+    height: 500px;
+    width: 30%;
+    padding: 20px;
+}
+
 .footer {
     grid-column: 2 / -2;
     height: 270px;
+    display: grid;
+    place-items: center;
+    text-align: center;
 }
