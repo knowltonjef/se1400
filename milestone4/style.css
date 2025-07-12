@@ -55,14 +55,21 @@
     z-index: 2;
     position: relative;
     margin-top: -640px;
+    text-align: left;
+    padding-top: 20px;
 }
 
 .image-row {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     height: 500px;
-    width: 30%;
-    padding: 20px;
+    width: 324px;
+    place-items: center, center;
+    padding: 100px 0px 0px 115px;
+}
+
+.image-row img:nth-child(2) {
+    width: 324px;
 }
 
 .footer {
