@@ -7,8 +7,8 @@
     grid-column: 1 / -1;
     height: 598px;
     background-image: url(main\ image.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 125%;
+    background-position: center -300px;
     z-index: 1;
     margin-bottom: 93px;
 }
