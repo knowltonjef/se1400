@@ -238,7 +238,7 @@ form {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 200px 1fr;
-    gap: 0.75rm;
+    gap: 0.75rem;
     width: 100%;
 
     input {
