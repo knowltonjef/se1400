@@ -117,7 +117,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 2 / -2;
+    grid-column: 1 / -1;
 }
 
 #studenthero {
@@ -127,7 +127,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 2 / -2;
+    grid-column: 1 / -1;
 }
 
 #facultyhero {
@@ -137,10 +137,22 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 2 / -2;
+    grid-column: 1 / -1;
 }
 
 main img {
     float: right;
     padding-left: 2rem;
+}
+
+#bluebar {
+    background-color: #003058;
+    grid-row: 1 /2;
+    grid-column: 1 / -1;
+}
+
+#greybar {
+    background-color: #424242;
+    grid-row: 2 /3;
+    grid-column: 1 / -1;
 }
