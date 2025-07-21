@@ -79,7 +79,7 @@
 
 .image-row {
     display: flex;
-    gap: 2rem;
+    gap: 60px;
     justify-content: center;
     align-items: center;
     padding: 2rem;
@@ -89,9 +89,10 @@
 .image-row img {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 410px;
     object-fit: cover;
     display: block;
+    margin-top: 120px;
 }
 
 .image-row img:nth-child(2) {
@@ -122,7 +123,7 @@
     color: black;
 }
 
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 768px 1fr;
@@ -136,8 +137,19 @@
         grid-column: 2 / 3;
     }
 
+    .danfo-header {
+        margin-top: 200px;
+        margin-right: 240px;
+    }
+
+    .h2 {
+        margin-right: 250px;
+    }
+
     .nav {
         grid-column: 2 / 3;
+        margin-top: -275px;
+        margin-right: 200px;
     }
 
     .header {
@@ -150,9 +162,10 @@
         background-position: center;
         height: 400px;
     }
+
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .container {
         display: grid;
         grid-template-columns: 1fr;
@@ -169,17 +182,21 @@
 
     .nav {
         grid-column: 1 / -1;
+        margin-top: -175px;
     }
 
     .header {
         grid-column: 1 / -1;
     }
 
-    .wheel-true-img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
+    .danfo-header {
+        margin-top: 200px;
+        margin-right: 175px;
+        text-align: center;
+    }
+
+    .h2 {
+        margin-right: 170px;
     }
 
     .image-row {
