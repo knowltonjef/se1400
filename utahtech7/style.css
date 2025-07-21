@@ -288,3 +288,32 @@ label {
     grid-row: 3 / 4;
     grid-column: 1 / -1;
 }
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #424242;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #424242;
+    padding: 5px;
+}
+
+th {
+    border: 1px solid #424242;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
