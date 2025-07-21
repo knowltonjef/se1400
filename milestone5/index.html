@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Fjalla+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gear Gurus</title>
 </head>
 
@@ -28,9 +29,21 @@
 
         <div class="main-bg">
             <div class="image-row">
-                <img src="true.jpg" alt="Wheel true">
-                <img src="wheel.jpg" alt="Rear wheel">
-                <img src="mechanic.jpg" alt="Bike mechanic">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="true-small.jpg">
+                    <source media="(max-width: 992px)" srcset="true-medium.jpg">
+                    <img src="true.jpg" alt="Wheel true">
+                </picture>
+                <picture>
+                    <source media="(max-width: 768px)" srcset="wheel-small.jpg">
+                    <source media="(max-width: 992px)" srcset="wheel.jpg">
+                    <img src="wheel.jpg" alt="Rear wheel">
+                </picture>
+                <picture>
+                    <source media="(max-width: 768px)" srcset="mechanic.jpg">
+                    <source media="(max-width: 992px)" srcset="mechanic.jpg">
+                    <img src="mechanic.jpg" alt="Bike mechanic">
+                </picture>
             </div>
         </div>
 
