@@ -123,6 +123,71 @@
     color: black;
 }
 
+@media only screen and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 992px 1fr;
+    }
+
+    .main {
+        grid-column: 2 / 3;
+        text-align: center;
+    }
+
+    .footer {
+        grid-column: 2 / 3;
+    }
+
+    .danfo-header {
+        margin-top: 200px;
+        margin-right: 240px;
+    }
+
+    .h2 {
+        margin-right: 250px;
+    }
+
+    .nav {
+        grid-column: 2 / 3;
+        margin-top: -275px;
+        margin-right: 200px;
+    }
+
+    .header {
+        grid-column: 2 / 3;
+    }
+
+    .main-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+    }
+
+    .rear-wheel-img {
+        display: none;
+    }
+
+    picture:has(.rear-wheel-img) {
+        display: none;
+    }
+
+    .image-row {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+        margin-right: 35px;
+    }
+
+    .image-row img {
+        max-width: 280px;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+}
+
 @media only screen and (max-width: 992px) {
     .container {
         display: grid;
@@ -204,7 +269,12 @@
 
     .nav {
         grid-column: 1 / -1;
-        margin-top: -175px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        margin-top: -190px;
+        margin-right: 325px;
     }
 
     .header {
