@@ -199,8 +199,31 @@
         margin-right: 170px;
     }
 
-    .image-row {
+    .rear-wheel-img {
         display: none;
+    }
+
+    .mechanic-img {
+        display: none;
+    }
+
+    picture:has(.rear-wheel-img) {
+        display: none;
+    }
+
+    picture:has(.mechanic-img) {
+        display: none;
+    }
+
+    .wheel-true-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .image-row {
+        justify-content: center;
     }
 
     .main-image {
