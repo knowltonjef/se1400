@@ -277,6 +277,10 @@
         margin-right: 325px;
     }
 
+     .nav a {
+        text-shadow: 1px 1px #ffbee0;
+    }
+
     .header {
         grid-column: 1 / -1;
     }
