@@ -173,6 +173,18 @@ video {
     margin-left: 2em;
 }
 
+#shoppingcart img {
+    width: 100%;
+    height: auto;
+
+}
+
+shopingcart {
+    display: grid;
+    grid-template-columns: repeat(3) repeat(3, 1fr);
+    gap: 1em;
+}
+
 @media only screen and (max-width: 1100px) {
     #wrapper {
         grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0px, 150px)) minmax(0px, 1fr);
@@ -233,6 +245,10 @@ video {
         width: 100%;
         height: auto;
     }
+
+    shoppingcart {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -261,9 +277,13 @@ video {
     #alumnihero {
         display: none;
     }
-    
+
     #shophero {
         display: none;
+    }
+
+    shoppingcart {
+        grid-template-columns: 1fr;
     }
 }
 
