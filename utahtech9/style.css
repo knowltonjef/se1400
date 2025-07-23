@@ -179,9 +179,9 @@ video {
 
 }
 
-shopingcart {
+#shoppingcart {
     display: grid;
-    grid-template-columns: repeat(3) repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1em;
 }
 
@@ -246,7 +246,7 @@ shopingcart {
         height: auto;
     }
 
-    shoppingcart {
+    #shoppingcart {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -282,7 +282,7 @@ shopingcart {
         display: none;
     }
 
-    shoppingcart {
+    #shoppingcart {
         grid-template-columns: 1fr;
     }
 }
