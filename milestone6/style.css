@@ -59,6 +59,11 @@
     gap: 90px;
 }
 
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .main-bg {
     grid-column: 1 / -1;
     height: 640px;
