@@ -134,7 +134,8 @@ h1 a {
         grid-template-columns: 1fr 992px 1fr;
     }
 
-    .main, .footer {
+    .main,
+    .footer {
         grid-column: 2 / 3;
         text-align: center;
     }
@@ -195,7 +196,8 @@ h1 a {
         grid-template-columns: 1fr 768px 1fr;
     }
 
-    .main, .footer {
+    .main,
+    .footer {
         grid-column: 2 / 3;
     }
 
@@ -292,7 +294,8 @@ h1 a {
         margin-right: 170px;
     }
 
-    .rear-wheel-img, .mechanic-img {
+    .rear-wheel-img,
+    .mechanic-img {
         display: none;
     }
 
@@ -323,6 +326,21 @@ h1 a {
     }
 }
 
+.container-contact {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+.container-about {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+.container-service {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
 form {
     display: grid;
     grid-template-rows: auto;
@@ -349,4 +367,10 @@ form {
     font-size: 25px;
     text-align: center;
     margin-top: -350px;
+}
+
+.calendly-inline-widget {
+    display: flex;
+    justify-content: center;
+    margin-top: -75px;
 }
