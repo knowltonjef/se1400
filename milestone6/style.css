@@ -436,3 +436,27 @@ form {
     margin-top: -75px;
     margin-left: -465px;
 }
+
+.tuneup-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 40px;
+    padding: 40px;
+    grid-column: 1 / -1;
+    justify-content: center;
+    font-family: "Fjalla One", sans-serif;
+
+
+}
+
+.tuneup-box h3 {
+    margin-top: 10px;
+}
+
+.tuneup-box ul {
+    padding-left: 20px;
+}
+
+.tuneup-box li {
+    margin-bottom: 8px;
+}
