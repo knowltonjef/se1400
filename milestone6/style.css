@@ -339,6 +339,7 @@ h1 a {
 .container-service {
     display: grid;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    background-image: linear-gradient(#ffbee0, #2d127d);
 }
 
 form {
@@ -373,4 +374,65 @@ form {
     display: flex;
     justify-content: center;
     margin-top: -75px;
+}
+
+.wheels {
+    grid-column: 1 / -1;
+    height: 350px;
+    background-image: url(wheels.jpg);
+    background-size: 125%;
+    background-position: center -300px;
+    z-index: 1;
+    margin-bottom: 93px;
+    background-repeat: no-repeat;
+}
+
+.danfo-header-service {
+    font-family: "Danfo", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
+    font-size: 87px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 260px;
+
+}
+
+.h2-service {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
+}
+
+.nav-service {
+    grid-column: 2 / 5;
+    height: 64px;
+    z-index: 2;
+    position: relative;
+    margin-top: -200px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.nav-service a {
+    text-decoration-line: none;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
+}
+
+.services-head {
+    grid-column: 1 / -1;
+    width: 400px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    margin-top: -75px;
+    margin-left: -465px;
 }
