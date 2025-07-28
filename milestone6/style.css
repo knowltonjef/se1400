@@ -429,7 +429,7 @@ form {
 
 .services-head {
     grid-column: 1 / -1;
-    width: 400px;
+    width: 1000px;
     height: 64px;
     display: flex;
     justify-content: center;
@@ -445,8 +445,6 @@ form {
     grid-column: 1 / -1;
     justify-content: center;
     font-family: "Fjalla One", sans-serif;
-
-
 }
 
 .tuneup-box h3 {
@@ -458,5 +456,35 @@ form {
 }
 
 .tuneup-box li {
+    margin-bottom: 8px;
+}
+
+.services-subhead {
+    grid-column: 1 / -1;
+    width: 400px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    font-family: "Fjalla One", sans-serif;
+    margin-top: -35px;
+    margin-left: -200px;
+}
+
+.additional-services {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 40px;
+    padding: 40px;
+    grid-column: 1 / -1;
+    justify-content: center;
+    font-family: "Fjalla One", sans-serif;
+    margin-top: -100px;
+}
+
+.service-column ul {
+    padding-left: 20px;
+}
+
+.service-column li {
     margin-bottom: 8px;
 }
