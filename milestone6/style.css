@@ -335,14 +335,18 @@ form {
     background-image: linear-gradient(#ffbee0, #2d127d);
     margin: auto;
     justify-content: center;
-    margin-left: -110px;
+    margin-left: -720px;
     margin-top: -75px;
 }
 
 .contact-text {
     display: grid;
-    margin-left: -450px;
+    margin-left: -715px;
+    z-index: 1;
     font-family: "Fjalla One", sans-serif;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
     font-size: 25px;
     text-align: center;
+    margin-top: -350px;
 }
