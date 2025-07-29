@@ -492,6 +492,7 @@ form {
     background-image: linear-gradient(#ffbee0, #2d127d);
 }
 
+
 .bryce {
     grid-column: 1 / -1;
     height: 350px;
@@ -502,6 +503,7 @@ form {
     margin-bottom: 93px;
     background-repeat: no-repeat;
 }
+
 
 .danfo-header-about {
     font-family: "Danfo", serif;
@@ -515,7 +517,9 @@ form {
     margin-bottom: 0px;
     margin-top: 260px;
 
+
 }
+
 
 .h2-about {
     display: flex;
@@ -524,6 +528,7 @@ form {
     color: #ffbee0;
     text-shadow: 1px 1px #2d127d;
 }
+
 
 .nav-about {
     grid-column: 2 / 5;
@@ -537,11 +542,13 @@ form {
     gap: 90px;
 }
 
+
 .nav-about a {
     text-decoration-line: none;
     color: #ffbee0;
     text-shadow: 1px 1px #2d127d;
 }
+
 
 .slider {
     width: 500px;
@@ -552,11 +559,14 @@ form {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+
 .slider img {
     width: 100%;
     display: block;
     object-fit: cover;
 }
+
+
 
 
 .sss-prev,
@@ -568,6 +578,7 @@ form {
     font-size: 18px;
 }
 
+
 .text1 {
     display: flex;
     width: 500px;
@@ -576,6 +587,7 @@ form {
     margin-top: -330px;
     margin-left: -500px;
 }
+
 
 .text2 {
     display: flex;
@@ -586,6 +598,7 @@ form {
     margin-top: 30px;
 }
 
+
 .text3 {
     display: flex;
     width: 1000px;
@@ -594,6 +607,7 @@ form {
     margin-left: -500px;
     margin-top: 30px;
 }
+
 
 .text4 {
     display: flex;
@@ -604,6 +618,7 @@ form {
     margin-top: 30px;
 }
 
+
 .text5 {
     display: flex;
     width: 400px;
@@ -613,10 +628,12 @@ form {
     margin-top: 30px;
 }
 
+
 .contact-about {
     color: black;
     text-shadow: 1px 1px #ffbee0;
 }
+
 
 .footer-about {
     display: flex;
@@ -626,6 +643,7 @@ form {
     color: #ffbee0;
     text-shadow: 1px 1px #2d127d;
 }
+
 
 .dtswiss-img {
     display: flex;
