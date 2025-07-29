@@ -126,6 +126,7 @@ h1 a {
 .contact {
     font-size: 24px;
     color: black;
+    
 }
 
 @media only screen and (max-width: 1064px) {
@@ -334,6 +335,7 @@ h1 a {
 .container-about {
     display: grid;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    background-image: linear-gradient(#ffbee0, #2d127d);
 }
 
 .container-service {
@@ -435,6 +437,7 @@ form {
     justify-content: center;
     margin-top: -75px;
     margin-left: -465px;
+    font-family: "Fjalla One", sans-serif;
 }
 
 .tuneup-container {
@@ -542,7 +545,7 @@ form {
 
 .slider {
     width: 500px;
-    margin-top: -75px;
+    margin-top: -65px;
     margin-left: 100px;
     border-radius: 8px;
     overflow: hidden;
@@ -563,4 +566,72 @@ form {
     padding: 10px;
     border-radius: 50%;
     font-size: 18px;
+}
+
+.text1 {
+    display: flex;
+    width: 500px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 25px;
+    margin-top: -330px;
+    margin-left: -500px;
+}
+
+.text2 {
+    display: flex;
+    width: 500px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 25px;
+    margin-left: -500px;
+    margin-top: 30px;
+}
+
+.text3 {
+    display: flex;
+    width: 1000px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 25px;
+    margin-left: -500px;
+    margin-top: 30px;
+}
+
+.text4 {
+    display: flex;
+    width: 400px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.text5 {
+    display: flex;
+    width: 400px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.contact-about {
+    color: black;
+    text-shadow: 1px 1px #ffbee0;
+}
+
+.footer-about {
+    display: flex;
+    margin-left: 500px;
+    margin-top: -50px;
+    text-align: center;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
+}
+
+.dtswiss-img {
+    display: flex;
+    width: auto;
+    height: 400px;
+    margin-top: -425px;
+    margin-left: -550px;
+    padding-bottom: 100px;
 }
