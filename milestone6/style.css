@@ -496,10 +496,10 @@ form {
     background-image: linear-gradient(#ffbee0, #2d127d);
 }
 
-.bryce {
+.canyon {
     grid-column: 1 / -1;
     height: 350px;
-    background-image: url(bryce.jpg);
+    background-image: url(canyon.jpg);
     background-size: 125%;
     background-position: center -300px;
     z-index: 1;
