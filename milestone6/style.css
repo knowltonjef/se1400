@@ -488,3 +488,54 @@ form {
 .service-column li {
     margin-bottom: 8px;
 }
+
+.bryce {
+    grid-column: 1 / -1;
+    height: 350px;
+    background-image: url(bryce.jpg);
+    background-size: 125%;
+    background-position: center -300px;
+    z-index: 1;
+    margin-bottom: 93px;
+    background-repeat: no-repeat;
+}
+
+.danfo-header-about {
+    font-family: "Danfo", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
+    font-size: 87px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 260px;
+
+}
+
+.h2-about {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
+}
+
+.nav-about {
+    grid-column: 2 / 5;
+    height: 64px;
+    z-index: 2;
+    position: relative;
+    margin-top: -200px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.nav-about a {
+    text-decoration-line: none;
+    color: #ffbee0;
+    text-shadow: 1px 1px #2d127d;
+}
