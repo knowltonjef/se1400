@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Fjalla+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gear Gurus :: About</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="sss/sss.min.js"></script>
+    <link rel="stylesheet" href="sss/sss.css">
 </head>
 
 <body>
@@ -28,25 +31,32 @@
         </nav>
 
         <main>
-            <p>Gear Gurus is your local mobile bike repair service, proudly operating throughout the greater St. George
-                area. We specialize in expert, on-the-go maintenance and repairs.
+            <div class="slider">
+                <img src="DT Swiss.jpg" alt="slide 1">
+                <img src="chain.jpg" alt="slide 2">
+                <img src="hub.jpg" alt="slide 3">
+                <img src="road.jpg" alt="slide 4">
+            </div>
 
-                We offer a convenient way to bring the bike shop to you, whether you’re at home, at work, or on your
+            <p>Gear Gurus is your local mobile bike repair service, proudly operating throughout the greater St. George
+                area. We specialize in expert, on-the-go maintenance and repairs.</p>
+
+            <p> We offer a convenient way to bring the bike shop to you, whether you’re at home, at work, or on your
                 commute, so you can spend less time waiting and more time out riding.
                 Our mechanics are friendly and well-trained in all aspects of bike repair, from flat repairs to
-                suspension services to full bike overhauls.
+                suspension services to full bike overhauls.</p>
 
-                Our goal is simple: to make bike care convenient, professional, and rider-focused. With years of
+            <p>Our goal is simple: to make bike care convenient, professional, and rider-focused. With years of
                 hands-on experience, our friendly and certified mechanics tackle everything from quick fixes to complex
                 repairs. Whether it’s a flat tire, a squeaky drivetrain, a suspension service, or a full bike overhaul,
-                we’ve got you covered.
+                we’ve got you covered.</p>
 
-                We service all types of bikes, road, mountain, gravel, commuter, and e-bikes, and we welcome riders of
+            <p>We service all types of bikes, road, mountain, gravel, commuter, and e-bikes, and we welcome riders of
                 all levels. Whether you're an experienced cyclist training for a race, an enthusiast gearing up for a
                 weekend ride, or a daily commuter where your bike is your main form of transportation, Gear Gurus is
-                here to keep your ride safe and reliable.
+                here to keep your ride safe and reliable.</p>
 
-                No more hauling your bike to a shop or waiting days to get your bike back, we provide onsite repairs
+            <p>No more hauling your bike to a shop or waiting days to get your bike back, we provide onsite repairs
                 where and when you need them.</p>
         </main>
     </div>
@@ -60,5 +70,13 @@
         </p>
     </footer>
 </body>
+<script>$('.slider').sss({
+        slideShow: true,
+        startOn: 0,
+        transition: 400,
+        speed: 3500,
+        showNav: true
+    });
+</script>
 
 </html>
