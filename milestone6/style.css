@@ -126,7 +126,7 @@ h1 a {
 .contact {
     font-size: 24px;
     color: black;
-    
+
 }
 
 @media only screen and (max-width: 1064px) {
@@ -332,18 +332,6 @@ h1 a {
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 
-.container-about {
-    display: grid;
-    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    background-image: linear-gradient(#ffbee0, #2d127d);
-}
-
-.container-service {
-    display: grid;
-    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    background-image: linear-gradient(#ffbee0, #2d127d);
-}
-
 form {
     display: grid;
     grid-template-rows: auto;
@@ -387,6 +375,12 @@ form {
     z-index: 1;
     margin-bottom: 93px;
     background-repeat: no-repeat;
+}
+
+.container-service {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    background-image: linear-gradient(#ffbee0, #2d127d);
 }
 
 .danfo-header-service {
@@ -490,6 +484,12 @@ form {
 
 .service-column li {
     margin-bottom: 8px;
+}
+
+.container-about {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    background-image: linear-gradient(#ffbee0, #2d127d);
 }
 
 .bryce {
