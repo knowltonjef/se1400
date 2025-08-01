@@ -1,0 +1,97 @@
+/* Structual Elements Go Here */
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+/* Navigation Elements Go Here */
+nav {
+    display: grid;
+    grid-column: 2 / 3;
+    background-color: #edeeef;
+}
+
+nav ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    width: 100%;
+
+}
+
+nav ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 10px;
+}
+
+
+/* Styling Elements Go Here */
+.solar {
+    display: grid;
+    width: 100vh;
+    grid-column: 3 / -2;
+}
+
+.edu {
+    display: grid;
+    width: 100vh;
+    grid-column: 3 / -2;
+}
+
+.eclipse {
+    display: grid;
+    width: 100vh;
+    grid-column: 3 / -2;
+}
+
+.flat {
+    display: grid;
+    width: 100vh;
+    grid-column: 3 / -2;
+}
+
+main {
+    display: grid;
+    grid-column: 3 / -2;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    display: grid;
+    grid-column: 3 / -2;
+    background-color: #2d5ba6;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.youlink {
+    color: #d53631;
+}
+
+hr {
+    display: block;
+    color: black;
+}
+/* Media Query of 960 and less goes here */
+@media only screen and (max-width: 960px) {
+
+    nav,
+    main,
+    footer {
+        grid-column: 2 / -2;
+    }
+
+    nav ul {
+        display: flex;
+        justify-items: flex-end;
+    }
+}
